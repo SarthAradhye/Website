@@ -1,0 +1,59 @@
+header{
+    background-color:#462025;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #ffe2c8;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+footer p{
+    color: white;
+}
+
+.intro img{
+    width: 100%;
+}
+nav{
+    background-color: #6f4147;
+    padding: 10px;
+    font-family: 'Yatra One', cursive;
+    
+}
+nav a{
+    padding: 8px;
+    color: beige;
+}
+nav a :hover{
+    background-color: rgb(255, 40, 2);
+}
+p{
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.a{
+    background-color: #f7de9e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.a img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.mantra{
+    font-family: 'Yatra One', cursive;
+    text-align: center;
+}
+.b{
+    background-color: #f5746a;
+}

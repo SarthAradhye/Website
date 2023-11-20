@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="icon" href="activites logo.png" type="image/x-icon">
+    <title>Activities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Sofia+Sans+Condensed&family=Ubuntu:wght@300&family=Yatra+One&display=swap"
+        rel="stylesheet">
+    <style>
+        header {
+            text-align: center;
+            font-family: 'Sofia Sans Condensed', sans-serif;
+            background-color: #2e8ebe;
+            padding: 10px;
+        }
+
+        header nav {
+            background-color: #01547d;
+            padding: 10px;
+            font-family: 'Yatra One', cursive;
+        }
+
+        header nav a {
+            color: aliceblue;
+            padding: 8px;
+        }
+
+        /*cards css from www.w3schools.com*/
+        * {
+            box-sizing: border-box;
+        }
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding in columns */
+        .row {
+            margin: 0 -5px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            /* this adds the "card" effect */
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            font-family: 'Playfair Display SC', serif;
+        }
+
+        /* Responsive columns - one column layout (vertical) on small screens */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>To be only Loyal to Studies is itself a Cheating with Yourself</h1>
+        <nav>
+            <a href="home.html" target="_blank">Home</a>
+            <a href="SocialMedia.html" target="_blank">Social media</a>
+            <a href="#">Activities</a>
+            <a href="photos.html" target="_blank">Gallery</a>
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+    </header>
+    <div class="team">
+        <img src="team.png" alt="" width="100%">
+    </div>
+    <div class="activities">
+        <h3 style="text-align: center;font-family: 'Ubuntu';">Some of the activites shown below.</h3>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h3 style="font-family: 'Ubuntu';">Hindu Priest</h3>
+                    <img src="HinduLogo.png" width="300" height="300">
+                    <p>I am a hindu priest and I perform various poojas</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3 style="font-family: 'Ubuntu';">Web development</h3>
+                    <img src="https://th.bing.com/th/id/OIP.xi_VY54V535hztHz11VTyQHaFL?pid=ImgDet&rs=1" width="300" height="300">
+                    <p>I make websites for you</p>
+                    <button style="border-radius: 15px; background-color: bisque;"><a href="webdevelopmentform.html" target="_blank">Click to have one</a></button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3 style="font-family: 'Ubuntu';">Tutorials</h3>
+                    <img src="https://gradepowerlearning.com/wp-content/uploads/2018/09/how-to-use-self-study.jpeg" width="300" height="300">
+                    <p>Learn and excell with me</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3 style="font-family: 'Ubuntu';">Aradhye Tech</h3>
+                    <img src="Aradhye Solutions (2).png" width="300" height="300">
+                    <p>Owner of Aradhye Tech company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
